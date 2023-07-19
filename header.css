@@ -1,0 +1,82 @@
+/* Estilos CSS para el encabezado */
+header {
+    background-color: #3b5998;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.info-section,
+.image-section,
+.data-section {
+  flex-basis: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.image-section img {
+  width: 100%; /* El ancho de la imagen ocupará el 100% del contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2d4373;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fichas Médicas - Hospital</title>
+  <link rel="stylesheet" type="text/css" href="ficha medica.css">
+  <link rel="stylesheet" type="text/css" href="header.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Perfil</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  
+  </header>
+
+  ----Ficha Medica----
+  <div class="container">
+    <section class="info-section">
+      <h2>FIT TRACKER</h2>
+      <p>Fit tracker es un dispositivo capaz de realizar un monitoreo constante sobre la actividad muscular que realiza el paciente en el gimnasio</p>
+    </section>
+    <section class="image-section">
+      <h2>Nuestro Dispositivo</h2>
+      <img src="Imagenes/dispositivo.JPEG" alt="Imagen 1" class="img1">
+  
+    </section>
+
+    <section class="data-section">
+      <h2>Agregar Datos</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email">
+
+        <button type="button" onclick="Enviar()" onclick="getnombre()">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <!-- Pie de página -->
+  </footer>
+  <script src="Link.js"></script>
+</body>
+</html>
